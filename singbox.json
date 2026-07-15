@@ -116,7 +116,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/download/bt",
+        "path": "/city/p/images",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -140,7 +140,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/content/resource",
+        "path": "/items/cn",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -163,7 +163,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/tech/course/help?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/search/group?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -179,7 +179,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/downloads/user/seasons",
+        "path": "/zh-cn/settings/favourites",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -203,7 +203,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/res/groups/share",
+        "path": "/zh-tw/zh-cn",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -226,7 +226,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/picture/ajax?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/avatar?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -242,7 +242,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/archive",
+        "path": "/photos/ja",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
