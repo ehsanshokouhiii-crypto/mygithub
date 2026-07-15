@@ -116,7 +116,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/services/messages/reg",
+        "path": "/data/services",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -140,7 +140,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/watch",
+        "path": "/manhua",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -163,7 +163,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/class?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/wenku/urls?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -179,7 +179,7 @@
       "server_port": 2096,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/photos",
+        "path": "/map/redirect.php",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -203,7 +203,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/tv/detail",
+        "path": "/shop/ad",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -226,7 +226,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/ranking?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/gif?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -242,7 +242,7 @@
       "server_port": 2053,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/gif/resource/image",
+        "path": "/image/services/document",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -266,7 +266,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/about",
+        "path": "/read",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -289,7 +289,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/tools/episodes/photos?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/info?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -305,7 +305,7 @@
       "server_port": 2053,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/cart/order/event",
+        "path": "/settings/upload",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -329,7 +329,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/category/events/china",
+        "path": "/events",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -352,7 +352,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/bbs?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/articles/info/jump.php?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -368,7 +368,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/go.php",
+        "path": "/albums/friend/account",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -392,7 +392,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/about/items/torrent",
+        "path": "/messages/lives",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -415,7 +415,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/question/acg?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/message?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -431,7 +431,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/ad/ja/hot",
+        "path": "/htm",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -455,7 +455,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/act",
+        "path": "/shop",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -478,7 +478,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/test/seller?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/qa/teacher?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -494,7 +494,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/go.php",
+        "path": "/ep/pics/groups",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -518,7 +518,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/trade/photo/acg",
+        "path": "/f/jump.php",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -541,7 +541,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/out.html/classify?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/images?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -557,7 +557,7 @@
       "server_port": 2096,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/about",
+        "path": "/doc/config",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -581,7 +581,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/txt/item",
+        "path": "/article/ranking",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -604,7 +604,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/trade/special/about?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/test?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -620,7 +620,7 @@
       "server_port": 2083,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/blog/doujin/jump",
+        "path": "/help",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -644,7 +644,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/messages/dl/player",
+        "path": "/app",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -667,7 +667,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/music?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/jump.html?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -683,7 +683,7 @@
       "server_port": 2096,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/picture/games/docs",
+        "path": "/favorite/members/thread",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -707,7 +707,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/soft/city",
+        "path": "/project/playlist/season",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -730,7 +730,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/store?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/redirect.php/acg/activity?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -746,7 +746,7 @@
       "server_port": 2087,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/comics",
+        "path": "/shop/work",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -770,7 +770,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/u",
+        "path": "/seller",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -793,7 +793,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/ep/book?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/comics?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -809,7 +809,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/classify",
+        "path": "/messages/m",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -833,7 +833,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/jp/pay/html",
+        "path": "/f/version",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -856,7 +856,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/item/help/collect?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/drama?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -872,7 +872,7 @@
       "server_port": 2053,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/pdf",
+        "path": "/info",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -896,7 +896,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/download",
+        "path": "/class/mobile/shop",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -919,7 +919,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/stars/question?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/thread/comic/forum?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -935,7 +935,7 @@
       "server_port": 2083,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/gif/photos/ads",
+        "path": "/bbs/ajax/seller",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -959,7 +959,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/services/company",
+        "path": "/knowledge/collection/acg",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -982,7 +982,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/out?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/category?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -998,7 +998,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/res",
+        "path": "/zh-cn",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1022,7 +1022,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/channels/drama/topic",
+        "path": "/study",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1045,7 +1045,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/special/courses?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/content/order/index?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1061,7 +1061,7 @@
       "server_port": 2053,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/go.php",
+        "path": "/classify/episode/chat",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1085,7 +1085,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/team/tech/drama",
+        "path": "/program",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1108,7 +1108,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/lang?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/doc?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1124,7 +1124,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/pay/playlist",
+        "path": "/group/redirect",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1148,7 +1148,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/downloads",
+        "path": "/home/items",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1171,7 +1171,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/blogs/doc?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/novels/categories?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1187,7 +1187,7 @@
       "server_port": 2083,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/my/friends/intro",
+        "path": "/register/china/streams",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1211,7 +1211,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/forums/movies",
+        "path": "/clip/retrieve/manhua",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1234,7 +1234,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/blog?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/event?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1250,7 +1250,7 @@
       "server_port": 2083,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/ask/sort/favourites",
+        "path": "/pics/img",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1274,7 +1274,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/doc/go",
+        "path": "/cart",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1297,7 +1297,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/about/mall?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/reg?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1313,7 +1313,7 @@
       "server_port": 2096,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/about",
+        "path": "/out.php",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1337,7 +1337,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/source",
+        "path": "/messages/shop",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1360,7 +1360,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/member?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/mall/lib?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1376,7 +1376,7 @@
       "server_port": 2053,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/clips/sort/jump.php",
+        "path": "/special",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1400,7 +1400,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/ep/favourites/favs",
+        "path": "/services/comic",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1423,7 +1423,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/doc?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/season?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1439,7 +1439,7 @@
       "server_port": 2087,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/message/hot/document",
+        "path": "/clip/edu/message",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1463,7 +1463,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/acg",
+        "path": "/intro",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1486,7 +1486,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/comic/team/tags?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/team?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1502,7 +1502,7 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/messages",
+        "path": "/topics/dl",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1526,7 +1526,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/channel",
+        "path": "/player/bbs",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1549,7 +1549,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/type?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/activity?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1565,7 +1565,7 @@
       "server_port": 2083,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/details",
+        "path": "/posts/pics/magnet",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1589,7 +1589,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/pictures/app/tags",
+        "path": "/intro",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1612,7 +1612,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/favourites/trade/source?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/courses/playlist?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1628,7 +1628,7 @@
       "server_port": 2096,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/acg/clip",
+        "path": "/details/config",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1652,7 +1652,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/u/favs",
+        "path": "/ad",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1675,7 +1675,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/ad/member/go.php?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/zh-tw?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1691,7 +1691,7 @@
       "server_port": 8443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/zip/pic",
+        "path": "/map/channel",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1715,7 +1715,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/www/film",
+        "path": "/picture/note/films",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1738,7 +1738,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/ep/forums?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/watch/article?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1754,7 +1754,7 @@
       "server_port": 2083,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/blogs/m/album",
+        "path": "/out",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1778,7 +1778,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/classify/feedback/china",
+        "path": "/sort",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1801,7 +1801,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/docs/lesson?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/articles/group/book?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1817,7 +1817,7 @@
       "server_port": 8080,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/archive",
+        "path": "/details/soft",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1841,7 +1841,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/lives/share",
+        "path": "/upload",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1864,7 +1864,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/project/pay?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/channel?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1880,7 +1880,7 @@
       "server_port": 2082,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/ad/program",
+        "path": "/qa",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1904,7 +1904,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/list/drama",
+        "path": "/events/gif",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1927,7 +1927,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/play/work?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/reg/res?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1943,7 +1943,7 @@
       "server_port": 8443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/wiki/series/services",
+        "path": "/films",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -1967,7 +1967,7 @@
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/members/tool/services",
+        "path": "/reg",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -1990,7 +1990,7 @@
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/lesson/friends?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/doujin/courses/out.html?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
