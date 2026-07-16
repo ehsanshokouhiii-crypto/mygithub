@@ -31,47 +31,47 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, alterId: 0, cipher: auto, tls: true, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, network: ws, ws-opts: {path: /?fake=1, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, alterId: 0, cipher: auto, tls: true, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, network: ws, ws-opts: {path: /?fake=1, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}, udp: false}
-  - {name: "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]", server: nova-pixel-panel-10a1.forclaudflare.workers.dev, port: 443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /products, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 108.162.198.62:443 [TROJAN]", server: 108.162.198.62, port: 443, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /novel/manhua/ranking, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.32.229:2053 [SS]", server: 104.19.32.229, port: 2053, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/sort?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.17.183.55:443 [VLESS]", server: 104.17.183.55, port: 443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /lives/posts, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.76.52:2096 [TROJAN]", server: 172.67.76.52, port: 2096, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /games/travel, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 188.164.248.24:2083 [SS]", server: 188.164.248.24, port: 2083, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/travel/chat?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.17.156.246:2096 [VLESS]", server: 104.17.156.246, port: 2096, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /album/task, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.35.211.255:2087 [TROJAN]", server: 8.35.211.255, port: 2087, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /detail/channel, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.73.156:443 [SS]", server: 172.67.73.156, port: 443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/thread/drama?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 8.35.211.209:443 [VLESS]", server: 8.35.211.209, port: 443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /readme/tech/groups, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.155.2:2053 [TROJAN]", server: 104.17.155.2, port: 2053, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /download/cart/watch, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.102.123:2083 [SS]", server: 104.17.102.123, port: 2083, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/play/films?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 172.66.0.80:2087 [VLESS]", server: 172.66.0.80, port: 2087, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /shows, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.250.244:2083 [TROJAN]", server: 104.16.250.244, port: 2083, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /item/txt/china, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 188.164.248.34:2087 [SS]", server: 188.164.248.34, port: 2087, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/doc?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.17.106.121:2083 [VLESS]", server: 104.17.106.121, port: 2083, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /seasons, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.42.128:2096 [TROJAN]", server: 162.159.42.128, port: 2096, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /series/doc, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.59.23:443 [SS]", server: 104.17.59.23, port: 443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/order?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 198.41.223.225:443 [VLESS]", server: 198.41.223.225, port: 443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /team/avatar, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.66.0.16:2096 [TROJAN]", server: 172.66.0.16, port: 2096, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /bbs/read, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.41.181:8443 [SS]", server: 162.159.41.181, port: 8443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/student/order/channel?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.16.241.169:2096 [VLESS]", server: 104.16.241.169, port: 2096, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /events/discount, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.66.3.206:2087 [TROJAN]", server: 172.66.3.206, port: 2087, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /pics/book/album, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.66.2.165:2096 [SS]", server: 172.66.2.165, port: 2096, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/shows?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.17.153.107:2096 [VLESS]", server: 104.17.153.107, port: 2096, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /files/doc/game, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.156.71:2083 [TROJAN]", server: 104.17.156.71, port: 2083, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /code/members, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.223.155:2096 [SS]", server: 198.41.223.155, port: 2096, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/mobile/tv?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.17.169.165:2053 [VLESS]", server: 104.17.169.165, port: 2053, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /redirect/jp/member, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.18.33.177:2083 [TROJAN]", server: 104.18.33.177, port: 2083, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /online/player/music, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.59.2:2083 [SS]", server: 104.17.59.2, port: 2083, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/mag/lessons?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.19.53.148:8443 [VLESS]", server: 104.19.53.148, port: 8443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /uploads/messages, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.246.60:2096 [TROJAN]", server: 104.16.246.60, port: 2096, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /code, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.153.103:8443 [SS]", server: 104.16.153.103, port: 8443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/comics?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 91.193.58.247:8443 [VLESS]", server: 91.193.58.247, port: 8443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /topic/game/share, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 8.35.211.33:8443 [TROJAN]", server: 8.35.211.33, port: 8443, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /cp/city/china, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 91.193.58.214:2053 [SS]", server: 91.193.58.214, port: 2053, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/favorite/channel?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.17.154.37:2053 [VLESS]", server: 104.17.154.37, port: 2053, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /services, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.145.212:2053 [TROJAN]", server: 104.19.145.212, port: 2053, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /photo/readme/links, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.26.1.238:2096 [SS]", server: 104.26.1.238, port: 2096, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/china/about?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا 104.17.62.39:2087 [VLESS]", server: 104.17.62.39, port: 2087, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /home, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.24.37:2053 [TROJAN]", server: 104.17.24.37, port: 2053, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /qa/playlist/pics, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]", server: nova-pixel-panel-10a1.forclaudflare.workers.dev, port: 443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /work/groups/pay, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.32.90:2087 [TROJAN]", server: 162.159.32.90, port: 2087, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /seller/tv, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.163.131:2096 [SS]", server: 104.17.163.131, port: 2096, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/category/doc?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 172.67.72.35:2087 [VLESS]", server: 172.67.72.35, port: 2087, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /vod/show, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.240.128:2053 [TROJAN]", server: 104.16.240.128, port: 2053, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /events/settings, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 108.162.198.20:8443 [SS]", server: 108.162.198.20, port: 8443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/code/ep?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.17.218.40:2087 [VLESS]", server: 104.17.218.40, port: 2087, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /pics, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.1.92:443 [TROJAN]", server: 104.26.1.92, port: 443, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /sale, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.13.225:2053 [SS]", server: 104.26.13.225, port: 2053, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/photos/about?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 173.245.59.156:8443 [VLESS]", server: 173.245.59.156, port: 8443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /buy, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 108.162.198.138:2083 [TROJAN]", server: 108.162.198.138, port: 2083, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /star/online, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.110.132:2083 [SS]", server: 104.17.110.132, port: 2083, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/soft?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.18.33.123:2087 [VLESS]", server: 104.18.33.123, port: 2087, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /stream/view, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 173.245.58.107:443 [TROJAN]", server: 173.245.58.107, port: 443, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /new/novels, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.150.187:2087 [SS]", server: 104.19.150.187, port: 2087, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/lesson?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 8.39.125.134:2083 [VLESS]", server: 8.39.125.134, port: 2083, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /documents/seasons/files, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.50.209:443 [TROJAN]", server: 104.19.50.209, port: 443, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /index/u, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.99:2096 [SS]", server: 91.193.59.99, port: 2096, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/pic/topic/register?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 188.164.248.200:443 [VLESS]", server: 188.164.248.200, port: 443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /posts/activity, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.29.110:2083 [TROJAN]", server: 104.17.29.110, port: 2083, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /program, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 108.162.198.169:2083 [SS]", server: 108.162.198.169, port: 2083, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/city?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.18.33.243:8443 [VLESS]", server: 104.18.33.243, port: 8443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /retrieve/file, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.35.211.124:2087 [TROJAN]", server: 8.35.211.124, port: 2087, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /bbs, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.223.122:8443 [SS]", server: 198.41.223.122, port: 8443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/trade/game?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.17.144.28:2083 [VLESS]", server: 104.17.144.28, port: 2083, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /tool/about, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.32.96:2096 [TROJAN]", server: 104.19.32.96, port: 2096, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /post, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 162.159.39.127:2053 [SS]", server: 162.159.39.127, port: 2053, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/play?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.17.124.206:2053 [VLESS]", server: 104.17.124.206, port: 2053, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /courses/cb, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.55.17:2083 [TROJAN]", server: 104.19.55.17, port: 2083, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /vip/urls/pic, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.157.186:443 [SS]", server: 104.16.157.186, port: 443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/dh/bbs?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.18.33.106:2053 [VLESS]", server: 104.18.33.106, port: 2053, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /community/doc, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.35.225:2087 [TROJAN]", server: 104.19.35.225, port: 2087, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /buy, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.119.61:8443 [SS]", server: 104.17.119.61, port: 8443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/member/index?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 198.41.209.189:443 [VLESS]", server: 198.41.209.189, port: 443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /library, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.126.182:8443 [TROJAN]", server: 104.17.126.182, port: 8443, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /lessons/company/go.php, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.162.49:443 [SS]", server: 104.17.162.49, port: 443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/out.html/pictures?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.16.248.129:8443 [VLESS]", server: 104.16.248.129, port: 8443, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /channel, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.203:2096 [TROJAN]", server: 91.193.59.203, port: 2096, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /redirect.html, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.35:443 [SS]", server: 91.193.59.35, port: 443, type: ss, cipher: aes-128-gcm, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-pixel-panel-10a1.forclaudflare.workers.dev, path: "/cp/city/download?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا 104.17.219.41:2087 [VLESS]", server: 104.17.219.41, port: 2087, type: vless, uuid: fe94a76b-4d67-4db6-8045-b290e5353ea2, tls: true, skip-cert-verify: false, servername: nova-pixel-panel-10a1.forclaudflare.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /lang/channel, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.215.206:8443 [TROJAN]", server: 104.17.215.206, port: 8443, type: trojan, password: fe94a76b-4d67-4db6-8045-b290e5353ea2, sni: nova-pixel-panel-10a1.forclaudflare.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /member/go.html/settings, headers: {Host: nova-pixel-panel-10a1.forclaudflare.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -83,46 +83,46 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.62:443 [TROJAN]
-      - سرویس رایگان نوا 104.19.32.229:2053 [SS]
-      - سرویس رایگان نوا 104.17.183.55:443 [VLESS]
-      - سرویس رایگان نوا 172.67.76.52:2096 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.24:2083 [SS]
-      - سرویس رایگان نوا 104.17.156.246:2096 [VLESS]
-      - سرویس رایگان نوا 8.35.211.255:2087 [TROJAN]
-      - سرویس رایگان نوا 172.67.73.156:443 [SS]
-      - سرویس رایگان نوا 8.35.211.209:443 [VLESS]
-      - سرویس رایگان نوا 104.17.155.2:2053 [TROJAN]
-      - سرویس رایگان نوا 104.17.102.123:2083 [SS]
-      - سرویس رایگان نوا 172.66.0.80:2087 [VLESS]
-      - سرویس رایگان نوا 104.16.250.244:2083 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.34:2087 [SS]
-      - سرویس رایگان نوا 104.17.106.121:2083 [VLESS]
-      - سرویس رایگان نوا 162.159.42.128:2096 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.23:443 [SS]
-      - سرویس رایگان نوا 198.41.223.225:443 [VLESS]
-      - سرویس رایگان نوا 172.66.0.16:2096 [TROJAN]
-      - سرویس رایگان نوا 162.159.41.181:8443 [SS]
-      - سرویس رایگان نوا 104.16.241.169:2096 [VLESS]
-      - سرویس رایگان نوا 172.66.3.206:2087 [TROJAN]
-      - سرویس رایگان نوا 172.66.2.165:2096 [SS]
-      - سرویس رایگان نوا 104.17.153.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.156.71:2083 [TROJAN]
-      - سرویس رایگان نوا 198.41.223.155:2096 [SS]
-      - سرویس رایگان نوا 104.17.169.165:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:2083 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.2:2083 [SS]
-      - سرویس رایگان نوا 104.19.53.148:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.246.60:2096 [TROJAN]
-      - سرویس رایگان نوا 104.16.153.103:8443 [SS]
-      - سرویس رایگان نوا 91.193.58.247:8443 [VLESS]
-      - سرویس رایگان نوا 8.35.211.33:8443 [TROJAN]
-      - سرویس رایگان نوا 91.193.58.214:2053 [SS]
-      - سرویس رایگان نوا 104.17.154.37:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.145.212:2053 [TROJAN]
-      - سرویس رایگان نوا 104.26.1.238:2096 [SS]
-      - سرویس رایگان نوا 104.17.62.39:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.24.37:2053 [TROJAN]
+      - سرویس رایگان نوا 162.159.32.90:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.163.131:2096 [SS]
+      - سرویس رایگان نوا 172.67.72.35:2087 [VLESS]
+      - سرویس رایگان نوا 104.16.240.128:2053 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.20:8443 [SS]
+      - سرویس رایگان نوا 104.17.218.40:2087 [VLESS]
+      - سرویس رایگان نوا 104.26.1.92:443 [TROJAN]
+      - سرویس رایگان نوا 104.26.13.225:2053 [SS]
+      - سرویس رایگان نوا 173.245.59.156:8443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.138:2083 [TROJAN]
+      - سرویس رایگان نوا 104.17.110.132:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.123:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.107:443 [TROJAN]
+      - سرویس رایگان نوا 104.19.150.187:2087 [SS]
+      - سرویس رایگان نوا 8.39.125.134:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.50.209:443 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.99:2096 [SS]
+      - سرویس رایگان نوا 188.164.248.200:443 [VLESS]
+      - سرویس رایگان نوا 104.17.29.110:2083 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.169:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.243:8443 [VLESS]
+      - سرویس رایگان نوا 8.35.211.124:2087 [TROJAN]
+      - سرویس رایگان نوا 198.41.223.122:8443 [SS]
+      - سرویس رایگان نوا 104.17.144.28:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.32.96:2096 [TROJAN]
+      - سرویس رایگان نوا 162.159.39.127:2053 [SS]
+      - سرویس رایگان نوا 104.17.124.206:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.55.17:2083 [TROJAN]
+      - سرویس رایگان نوا 104.16.157.186:443 [SS]
+      - سرویس رایگان نوا 104.18.33.106:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.35.225:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.119.61:8443 [SS]
+      - سرویس رایگان نوا 198.41.209.189:443 [VLESS]
+      - سرویس رایگان نوا 104.17.126.182:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.162.49:443 [SS]
+      - سرویس رایگان نوا 104.16.248.129:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.203:2096 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.35:443 [SS]
+      - سرویس رایگان نوا 104.17.219.41:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.215.206:8443 [TROJAN]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -130,92 +130,92 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.62:443 [TROJAN]
-      - سرویس رایگان نوا 104.19.32.229:2053 [SS]
-      - سرویس رایگان نوا 104.17.183.55:443 [VLESS]
-      - سرویس رایگان نوا 172.67.76.52:2096 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.24:2083 [SS]
-      - سرویس رایگان نوا 104.17.156.246:2096 [VLESS]
-      - سرویس رایگان نوا 8.35.211.255:2087 [TROJAN]
-      - سرویس رایگان نوا 172.67.73.156:443 [SS]
-      - سرویس رایگان نوا 8.35.211.209:443 [VLESS]
-      - سرویس رایگان نوا 104.17.155.2:2053 [TROJAN]
-      - سرویس رایگان نوا 104.17.102.123:2083 [SS]
-      - سرویس رایگان نوا 172.66.0.80:2087 [VLESS]
-      - سرویس رایگان نوا 104.16.250.244:2083 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.34:2087 [SS]
-      - سرویس رایگان نوا 104.17.106.121:2083 [VLESS]
-      - سرویس رایگان نوا 162.159.42.128:2096 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.23:443 [SS]
-      - سرویس رایگان نوا 198.41.223.225:443 [VLESS]
-      - سرویس رایگان نوا 172.66.0.16:2096 [TROJAN]
-      - سرویس رایگان نوا 162.159.41.181:8443 [SS]
-      - سرویس رایگان نوا 104.16.241.169:2096 [VLESS]
-      - سرویس رایگان نوا 172.66.3.206:2087 [TROJAN]
-      - سرویس رایگان نوا 172.66.2.165:2096 [SS]
-      - سرویس رایگان نوا 104.17.153.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.156.71:2083 [TROJAN]
-      - سرویس رایگان نوا 198.41.223.155:2096 [SS]
-      - سرویس رایگان نوا 104.17.169.165:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:2083 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.2:2083 [SS]
-      - سرویس رایگان نوا 104.19.53.148:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.246.60:2096 [TROJAN]
-      - سرویس رایگان نوا 104.16.153.103:8443 [SS]
-      - سرویس رایگان نوا 91.193.58.247:8443 [VLESS]
-      - سرویس رایگان نوا 8.35.211.33:8443 [TROJAN]
-      - سرویس رایگان نوا 91.193.58.214:2053 [SS]
-      - سرویس رایگان نوا 104.17.154.37:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.145.212:2053 [TROJAN]
-      - سرویس رایگان نوا 104.26.1.238:2096 [SS]
-      - سرویس رایگان نوا 104.17.62.39:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.24.37:2053 [TROJAN]
+      - سرویس رایگان نوا 162.159.32.90:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.163.131:2096 [SS]
+      - سرویس رایگان نوا 172.67.72.35:2087 [VLESS]
+      - سرویس رایگان نوا 104.16.240.128:2053 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.20:8443 [SS]
+      - سرویس رایگان نوا 104.17.218.40:2087 [VLESS]
+      - سرویس رایگان نوا 104.26.1.92:443 [TROJAN]
+      - سرویس رایگان نوا 104.26.13.225:2053 [SS]
+      - سرویس رایگان نوا 173.245.59.156:8443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.138:2083 [TROJAN]
+      - سرویس رایگان نوا 104.17.110.132:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.123:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.107:443 [TROJAN]
+      - سرویس رایگان نوا 104.19.150.187:2087 [SS]
+      - سرویس رایگان نوا 8.39.125.134:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.50.209:443 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.99:2096 [SS]
+      - سرویس رایگان نوا 188.164.248.200:443 [VLESS]
+      - سرویس رایگان نوا 104.17.29.110:2083 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.169:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.243:8443 [VLESS]
+      - سرویس رایگان نوا 8.35.211.124:2087 [TROJAN]
+      - سرویس رایگان نوا 198.41.223.122:8443 [SS]
+      - سرویس رایگان نوا 104.17.144.28:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.32.96:2096 [TROJAN]
+      - سرویس رایگان نوا 162.159.39.127:2053 [SS]
+      - سرویس رایگان نوا 104.17.124.206:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.55.17:2083 [TROJAN]
+      - سرویس رایگان نوا 104.16.157.186:443 [SS]
+      - سرویس رایگان نوا 104.18.33.106:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.35.225:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.119.61:8443 [SS]
+      - سرویس رایگان نوا 198.41.209.189:443 [VLESS]
+      - سرویس رایگان نوا 104.17.126.182:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.162.49:443 [SS]
+      - سرویس رایگان نوا 104.16.248.129:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.203:2096 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.35:443 [SS]
+      - سرویس رایگان نوا 104.17.219.41:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.215.206:8443 [TROJAN]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.62:443 [TROJAN]
-      - سرویس رایگان نوا 104.19.32.229:2053 [SS]
-      - سرویس رایگان نوا 104.17.183.55:443 [VLESS]
-      - سرویس رایگان نوا 172.67.76.52:2096 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.24:2083 [SS]
-      - سرویس رایگان نوا 104.17.156.246:2096 [VLESS]
-      - سرویس رایگان نوا 8.35.211.255:2087 [TROJAN]
-      - سرویس رایگان نوا 172.67.73.156:443 [SS]
-      - سرویس رایگان نوا 8.35.211.209:443 [VLESS]
-      - سرویس رایگان نوا 104.17.155.2:2053 [TROJAN]
-      - سرویس رایگان نوا 104.17.102.123:2083 [SS]
-      - سرویس رایگان نوا 172.66.0.80:2087 [VLESS]
-      - سرویس رایگان نوا 104.16.250.244:2083 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.34:2087 [SS]
-      - سرویس رایگان نوا 104.17.106.121:2083 [VLESS]
-      - سرویس رایگان نوا 162.159.42.128:2096 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.23:443 [SS]
-      - سرویس رایگان نوا 198.41.223.225:443 [VLESS]
-      - سرویس رایگان نوا 172.66.0.16:2096 [TROJAN]
-      - سرویس رایگان نوا 162.159.41.181:8443 [SS]
-      - سرویس رایگان نوا 104.16.241.169:2096 [VLESS]
-      - سرویس رایگان نوا 172.66.3.206:2087 [TROJAN]
-      - سرویس رایگان نوا 172.66.2.165:2096 [SS]
-      - سرویس رایگان نوا 104.17.153.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.156.71:2083 [TROJAN]
-      - سرویس رایگان نوا 198.41.223.155:2096 [SS]
-      - سرویس رایگان نوا 104.17.169.165:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:2083 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.2:2083 [SS]
-      - سرویس رایگان نوا 104.19.53.148:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.246.60:2096 [TROJAN]
-      - سرویس رایگان نوا 104.16.153.103:8443 [SS]
-      - سرویس رایگان نوا 91.193.58.247:8443 [VLESS]
-      - سرویس رایگان نوا 8.35.211.33:8443 [TROJAN]
-      - سرویس رایگان نوا 91.193.58.214:2053 [SS]
-      - سرویس رایگان نوا 104.17.154.37:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.145.212:2053 [TROJAN]
-      - سرویس رایگان نوا 104.26.1.238:2096 [SS]
-      - سرویس رایگان نوا 104.17.62.39:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.24.37:2053 [TROJAN]
+      - سرویس رایگان نوا 162.159.32.90:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.163.131:2096 [SS]
+      - سرویس رایگان نوا 172.67.72.35:2087 [VLESS]
+      - سرویس رایگان نوا 104.16.240.128:2053 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.20:8443 [SS]
+      - سرویس رایگان نوا 104.17.218.40:2087 [VLESS]
+      - سرویس رایگان نوا 104.26.1.92:443 [TROJAN]
+      - سرویس رایگان نوا 104.26.13.225:2053 [SS]
+      - سرویس رایگان نوا 173.245.59.156:8443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.138:2083 [TROJAN]
+      - سرویس رایگان نوا 104.17.110.132:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.123:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.107:443 [TROJAN]
+      - سرویس رایگان نوا 104.19.150.187:2087 [SS]
+      - سرویس رایگان نوا 8.39.125.134:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.50.209:443 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.99:2096 [SS]
+      - سرویس رایگان نوا 188.164.248.200:443 [VLESS]
+      - سرویس رایگان نوا 104.17.29.110:2083 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.169:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.243:8443 [VLESS]
+      - سرویس رایگان نوا 8.35.211.124:2087 [TROJAN]
+      - سرویس رایگان نوا 198.41.223.122:8443 [SS]
+      - سرویس رایگان نوا 104.17.144.28:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.32.96:2096 [TROJAN]
+      - سرویس رایگان نوا 162.159.39.127:2053 [SS]
+      - سرویس رایگان نوا 104.17.124.206:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.55.17:2083 [TROJAN]
+      - سرویس رایگان نوا 104.16.157.186:443 [SS]
+      - سرویس رایگان نوا 104.18.33.106:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.35.225:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.119.61:8443 [SS]
+      - سرویس رایگان نوا 198.41.209.189:443 [VLESS]
+      - سرویس رایگان نوا 104.17.126.182:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.162.49:443 [SS]
+      - سرویس رایگان نوا 104.16.248.129:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.203:2096 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.35:443 [SS]
+      - سرویس رایگان نوا 104.17.219.41:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.215.206:8443 [TROJAN]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -223,46 +223,46 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.62:443 [TROJAN]
-      - سرویس رایگان نوا 104.19.32.229:2053 [SS]
-      - سرویس رایگان نوا 104.17.183.55:443 [VLESS]
-      - سرویس رایگان نوا 172.67.76.52:2096 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.24:2083 [SS]
-      - سرویس رایگان نوا 104.17.156.246:2096 [VLESS]
-      - سرویس رایگان نوا 8.35.211.255:2087 [TROJAN]
-      - سرویس رایگان نوا 172.67.73.156:443 [SS]
-      - سرویس رایگان نوا 8.35.211.209:443 [VLESS]
-      - سرویس رایگان نوا 104.17.155.2:2053 [TROJAN]
-      - سرویس رایگان نوا 104.17.102.123:2083 [SS]
-      - سرویس رایگان نوا 172.66.0.80:2087 [VLESS]
-      - سرویس رایگان نوا 104.16.250.244:2083 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.34:2087 [SS]
-      - سرویس رایگان نوا 104.17.106.121:2083 [VLESS]
-      - سرویس رایگان نوا 162.159.42.128:2096 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.23:443 [SS]
-      - سرویس رایگان نوا 198.41.223.225:443 [VLESS]
-      - سرویس رایگان نوا 172.66.0.16:2096 [TROJAN]
-      - سرویس رایگان نوا 162.159.41.181:8443 [SS]
-      - سرویس رایگان نوا 104.16.241.169:2096 [VLESS]
-      - سرویس رایگان نوا 172.66.3.206:2087 [TROJAN]
-      - سرویس رایگان نوا 172.66.2.165:2096 [SS]
-      - سرویس رایگان نوا 104.17.153.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.156.71:2083 [TROJAN]
-      - سرویس رایگان نوا 198.41.223.155:2096 [SS]
-      - سرویس رایگان نوا 104.17.169.165:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:2083 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.2:2083 [SS]
-      - سرویس رایگان نوا 104.19.53.148:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.246.60:2096 [TROJAN]
-      - سرویس رایگان نوا 104.16.153.103:8443 [SS]
-      - سرویس رایگان نوا 91.193.58.247:8443 [VLESS]
-      - سرویس رایگان نوا 8.35.211.33:8443 [TROJAN]
-      - سرویس رایگان نوا 91.193.58.214:2053 [SS]
-      - سرویس رایگان نوا 104.17.154.37:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.145.212:2053 [TROJAN]
-      - سرویس رایگان نوا 104.26.1.238:2096 [SS]
-      - سرویس رایگان نوا 104.17.62.39:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.24.37:2053 [TROJAN]
+      - سرویس رایگان نوا 162.159.32.90:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.163.131:2096 [SS]
+      - سرویس رایگان نوا 172.67.72.35:2087 [VLESS]
+      - سرویس رایگان نوا 104.16.240.128:2053 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.20:8443 [SS]
+      - سرویس رایگان نوا 104.17.218.40:2087 [VLESS]
+      - سرویس رایگان نوا 104.26.1.92:443 [TROJAN]
+      - سرویس رایگان نوا 104.26.13.225:2053 [SS]
+      - سرویس رایگان نوا 173.245.59.156:8443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.138:2083 [TROJAN]
+      - سرویس رایگان نوا 104.17.110.132:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.123:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.107:443 [TROJAN]
+      - سرویس رایگان نوا 104.19.150.187:2087 [SS]
+      - سرویس رایگان نوا 8.39.125.134:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.50.209:443 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.99:2096 [SS]
+      - سرویس رایگان نوا 188.164.248.200:443 [VLESS]
+      - سرویس رایگان نوا 104.17.29.110:2083 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.169:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.243:8443 [VLESS]
+      - سرویس رایگان نوا 8.35.211.124:2087 [TROJAN]
+      - سرویس رایگان نوا 198.41.223.122:8443 [SS]
+      - سرویس رایگان نوا 104.17.144.28:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.32.96:2096 [TROJAN]
+      - سرویس رایگان نوا 162.159.39.127:2053 [SS]
+      - سرویس رایگان نوا 104.17.124.206:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.55.17:2083 [TROJAN]
+      - سرویس رایگان نوا 104.16.157.186:443 [SS]
+      - سرویس رایگان نوا 104.18.33.106:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.35.225:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.119.61:8443 [SS]
+      - سرویس رایگان نوا 198.41.209.189:443 [VLESS]
+      - سرویس رایگان نوا 104.17.126.182:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.162.49:443 [SS]
+      - سرویس رایگان نوا 104.16.248.129:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.203:2096 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.35:443 [SS]
+      - سرویس رایگان نوا 104.17.219.41:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.215.206:8443 [TROJAN]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -289,46 +289,46 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.62:443 [TROJAN]
-      - سرویس رایگان نوا 104.19.32.229:2053 [SS]
-      - سرویس رایگان نوا 104.17.183.55:443 [VLESS]
-      - سرویس رایگان نوا 172.67.76.52:2096 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.24:2083 [SS]
-      - سرویس رایگان نوا 104.17.156.246:2096 [VLESS]
-      - سرویس رایگان نوا 8.35.211.255:2087 [TROJAN]
-      - سرویس رایگان نوا 172.67.73.156:443 [SS]
-      - سرویس رایگان نوا 8.35.211.209:443 [VLESS]
-      - سرویس رایگان نوا 104.17.155.2:2053 [TROJAN]
-      - سرویس رایگان نوا 104.17.102.123:2083 [SS]
-      - سرویس رایگان نوا 172.66.0.80:2087 [VLESS]
-      - سرویس رایگان نوا 104.16.250.244:2083 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.34:2087 [SS]
-      - سرویس رایگان نوا 104.17.106.121:2083 [VLESS]
-      - سرویس رایگان نوا 162.159.42.128:2096 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.23:443 [SS]
-      - سرویس رایگان نوا 198.41.223.225:443 [VLESS]
-      - سرویس رایگان نوا 172.66.0.16:2096 [TROJAN]
-      - سرویس رایگان نوا 162.159.41.181:8443 [SS]
-      - سرویس رایگان نوا 104.16.241.169:2096 [VLESS]
-      - سرویس رایگان نوا 172.66.3.206:2087 [TROJAN]
-      - سرویس رایگان نوا 172.66.2.165:2096 [SS]
-      - سرویس رایگان نوا 104.17.153.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.156.71:2083 [TROJAN]
-      - سرویس رایگان نوا 198.41.223.155:2096 [SS]
-      - سرویس رایگان نوا 104.17.169.165:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:2083 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.2:2083 [SS]
-      - سرویس رایگان نوا 104.19.53.148:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.246.60:2096 [TROJAN]
-      - سرویس رایگان نوا 104.16.153.103:8443 [SS]
-      - سرویس رایگان نوا 91.193.58.247:8443 [VLESS]
-      - سرویس رایگان نوا 8.35.211.33:8443 [TROJAN]
-      - سرویس رایگان نوا 91.193.58.214:2053 [SS]
-      - سرویس رایگان نوا 104.17.154.37:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.145.212:2053 [TROJAN]
-      - سرویس رایگان نوا 104.26.1.238:2096 [SS]
-      - سرویس رایگان نوا 104.17.62.39:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.24.37:2053 [TROJAN]
+      - سرویس رایگان نوا 162.159.32.90:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.163.131:2096 [SS]
+      - سرویس رایگان نوا 172.67.72.35:2087 [VLESS]
+      - سرویس رایگان نوا 104.16.240.128:2053 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.20:8443 [SS]
+      - سرویس رایگان نوا 104.17.218.40:2087 [VLESS]
+      - سرویس رایگان نوا 104.26.1.92:443 [TROJAN]
+      - سرویس رایگان نوا 104.26.13.225:2053 [SS]
+      - سرویس رایگان نوا 173.245.59.156:8443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.138:2083 [TROJAN]
+      - سرویس رایگان نوا 104.17.110.132:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.123:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.107:443 [TROJAN]
+      - سرویس رایگان نوا 104.19.150.187:2087 [SS]
+      - سرویس رایگان نوا 8.39.125.134:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.50.209:443 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.99:2096 [SS]
+      - سرویس رایگان نوا 188.164.248.200:443 [VLESS]
+      - سرویس رایگان نوا 104.17.29.110:2083 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.169:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.243:8443 [VLESS]
+      - سرویس رایگان نوا 8.35.211.124:2087 [TROJAN]
+      - سرویس رایگان نوا 198.41.223.122:8443 [SS]
+      - سرویس رایگان نوا 104.17.144.28:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.32.96:2096 [TROJAN]
+      - سرویس رایگان نوا 162.159.39.127:2053 [SS]
+      - سرویس رایگان نوا 104.17.124.206:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.55.17:2083 [TROJAN]
+      - سرویس رایگان نوا 104.16.157.186:443 [SS]
+      - سرویس رایگان نوا 104.18.33.106:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.35.225:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.119.61:8443 [SS]
+      - سرویس رایگان نوا 198.41.209.189:443 [VLESS]
+      - سرویس رایگان نوا 104.17.126.182:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.162.49:443 [SS]
+      - سرویس رایگان نوا 104.16.248.129:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.203:2096 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.35:443 [SS]
+      - سرویس رایگان نوا 104.17.219.41:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.215.206:8443 [TROJAN]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -341,46 +341,46 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.62:443 [TROJAN]
-      - سرویس رایگان نوا 104.19.32.229:2053 [SS]
-      - سرویس رایگان نوا 104.17.183.55:443 [VLESS]
-      - سرویس رایگان نوا 172.67.76.52:2096 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.24:2083 [SS]
-      - سرویس رایگان نوا 104.17.156.246:2096 [VLESS]
-      - سرویس رایگان نوا 8.35.211.255:2087 [TROJAN]
-      - سرویس رایگان نوا 172.67.73.156:443 [SS]
-      - سرویس رایگان نوا 8.35.211.209:443 [VLESS]
-      - سرویس رایگان نوا 104.17.155.2:2053 [TROJAN]
-      - سرویس رایگان نوا 104.17.102.123:2083 [SS]
-      - سرویس رایگان نوا 172.66.0.80:2087 [VLESS]
-      - سرویس رایگان نوا 104.16.250.244:2083 [TROJAN]
-      - سرویس رایگان نوا 188.164.248.34:2087 [SS]
-      - سرویس رایگان نوا 104.17.106.121:2083 [VLESS]
-      - سرویس رایگان نوا 162.159.42.128:2096 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.23:443 [SS]
-      - سرویس رایگان نوا 198.41.223.225:443 [VLESS]
-      - سرویس رایگان نوا 172.66.0.16:2096 [TROJAN]
-      - سرویس رایگان نوا 162.159.41.181:8443 [SS]
-      - سرویس رایگان نوا 104.16.241.169:2096 [VLESS]
-      - سرویس رایگان نوا 172.66.3.206:2087 [TROJAN]
-      - سرویس رایگان نوا 172.66.2.165:2096 [SS]
-      - سرویس رایگان نوا 104.17.153.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.156.71:2083 [TROJAN]
-      - سرویس رایگان نوا 198.41.223.155:2096 [SS]
-      - سرویس رایگان نوا 104.17.169.165:2053 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:2083 [TROJAN]
-      - سرویس رایگان نوا 104.17.59.2:2083 [SS]
-      - سرویس رایگان نوا 104.19.53.148:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.246.60:2096 [TROJAN]
-      - سرویس رایگان نوا 104.16.153.103:8443 [SS]
-      - سرویس رایگان نوا 91.193.58.247:8443 [VLESS]
-      - سرویس رایگان نوا 8.35.211.33:8443 [TROJAN]
-      - سرویس رایگان نوا 91.193.58.214:2053 [SS]
-      - سرویس رایگان نوا 104.17.154.37:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.145.212:2053 [TROJAN]
-      - سرویس رایگان نوا 104.26.1.238:2096 [SS]
-      - سرویس رایگان نوا 104.17.62.39:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.24.37:2053 [TROJAN]
+      - سرویس رایگان نوا 162.159.32.90:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.163.131:2096 [SS]
+      - سرویس رایگان نوا 172.67.72.35:2087 [VLESS]
+      - سرویس رایگان نوا 104.16.240.128:2053 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.20:8443 [SS]
+      - سرویس رایگان نوا 104.17.218.40:2087 [VLESS]
+      - سرویس رایگان نوا 104.26.1.92:443 [TROJAN]
+      - سرویس رایگان نوا 104.26.13.225:2053 [SS]
+      - سرویس رایگان نوا 173.245.59.156:8443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.138:2083 [TROJAN]
+      - سرویس رایگان نوا 104.17.110.132:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.123:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.107:443 [TROJAN]
+      - سرویس رایگان نوا 104.19.150.187:2087 [SS]
+      - سرویس رایگان نوا 8.39.125.134:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.50.209:443 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.99:2096 [SS]
+      - سرویس رایگان نوا 188.164.248.200:443 [VLESS]
+      - سرویس رایگان نوا 104.17.29.110:2083 [TROJAN]
+      - سرویس رایگان نوا 108.162.198.169:2083 [SS]
+      - سرویس رایگان نوا 104.18.33.243:8443 [VLESS]
+      - سرویس رایگان نوا 8.35.211.124:2087 [TROJAN]
+      - سرویس رایگان نوا 198.41.223.122:8443 [SS]
+      - سرویس رایگان نوا 104.17.144.28:2083 [VLESS]
+      - سرویس رایگان نوا 104.19.32.96:2096 [TROJAN]
+      - سرویس رایگان نوا 162.159.39.127:2053 [SS]
+      - سرویس رایگان نوا 104.17.124.206:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.55.17:2083 [TROJAN]
+      - سرویس رایگان نوا 104.16.157.186:443 [SS]
+      - سرویس رایگان نوا 104.18.33.106:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.35.225:2087 [TROJAN]
+      - سرویس رایگان نوا 104.17.119.61:8443 [SS]
+      - سرویس رایگان نوا 198.41.209.189:443 [VLESS]
+      - سرویس رایگان نوا 104.17.126.182:8443 [TROJAN]
+      - سرویس رایگان نوا 104.17.162.49:443 [SS]
+      - سرویس رایگان نوا 104.16.248.129:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.59.203:2096 [TROJAN]
+      - سرویس رایگان نوا 91.193.59.35:443 [SS]
+      - سرویس رایگان نوا 104.17.219.41:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.215.206:8443 [TROJAN]
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT
