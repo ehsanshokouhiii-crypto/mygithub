@@ -116,31 +116,157 @@
       "server_port": 443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
+        "path": "/channel/anime",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+      "server": "104.19.34.93",
+      "server_port": 2087,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
+        "path": "/season/docs",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+      "server": "104.17.209.124",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/contact?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+      "server": "162.159.38.188",
+      "server_port": 443,
+      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "path": "/m",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+      "server": "172.66.3.150",
+      "server_port": 443,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
+        "path": "/service/images",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+      "server": "162.159.40.75",
+      "server_port": 8443,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/videos/members?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+      "server": "108.162.198.94",
+      "server_port": 2096,
+      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "path": "/hot",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+      "server": "104.19.53.3",
+      "server_port": 8443,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
         "path": "/app",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-      "server": "108.162.198.85",
-      "server_port": 443,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/resource",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -157,76 +283,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-      "server": "8.39.125.191",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/ranking/www/share?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-      "server": "104.19.35.178",
+      "tag": "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+      "server": "8.35.211.170",
       "server_port": 8443,
-      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "path": "/album/user",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-      "server": "104.19.33.110",
-      "server_port": 2087,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/comics",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-      "server": "104.19.145.111",
-      "server_port": 443,
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/mag?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/content/bd/about?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -237,75 +300,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-      "server": "104.17.220.123",
-      "server_port": 443,
-      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "path": "/tag",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-      "server": "108.162.198.89",
-      "server_port": 2053,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/web/team/redirect.php",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-      "server": "108.162.198.244",
-      "server_port": 2083,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/go.php/jump?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-      "server": "198.41.208.141",
+      "tag": "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+      "server": "104.17.148.251",
       "server_port": 2087,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/sale/url/tv",
+        "path": "/dh",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -323,13 +323,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-      "server": "104.19.147.248",
-      "server_port": 2053,
+      "tag": "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+      "server": "8.39.125.200",
+      "server_port": 2083,
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/tv/jump.html",
+        "path": "/store/pics/document",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -346,13 +346,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-      "server": "104.18.33.152",
-      "server_port": 2083,
+      "tag": "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+      "server": "104.18.33.139",
+      "server_port": 443,
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/movie?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/p?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -363,12 +363,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-      "server": "104.26.3.99",
-      "server_port": 2083,
+      "tag": "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+      "server": "198.41.223.65",
+      "server_port": 2087,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/members/channels",
+        "path": "/cp/dl",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -386,13 +386,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-      "server": "104.26.5.141",
-      "server_port": 443,
+      "tag": "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+      "server": "104.17.213.215",
+      "server_port": 2083,
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/streaming",
+        "path": "/playlist",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -409,29 +409,92 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-      "server": "91.193.59.105",
+      "tag": "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+      "server": "104.17.216.0",
+      "server_port": 2053,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/uploads?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+      "server": "104.17.116.175",
+      "server_port": 2053,
+      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "path": "/news/messages",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+      "server": "173.245.58.248",
+      "server_port": 2083,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
+        "path": "/groups/member/forums",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+      "server": "188.164.248.25",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/club/search?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+      "server": "104.17.119.243",
       "server_port": 2096,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/channels/groups/drama?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-      "server": "104.17.157.16",
-      "server_port": 2087,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/go.php/about",
+        "path": "/view",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -449,13 +512,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-      "server": "108.162.198.227",
-      "server_port": 2087,
+      "tag": "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+      "server": "104.17.118.73",
+      "server_port": 2083,
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/program/films/collection",
+        "path": "/item/chat",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -472,13 +535,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-      "server": "104.17.53.157",
+      "tag": "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+      "server": "8.39.125.248",
       "server_port": 2083,
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/go.php?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/clip/map?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -489,201 +552,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-      "server": "104.19.144.156",
-      "server_port": 2083,
-      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "path": "/en/library/edu",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-      "server": "104.18.33.83",
-      "server_port": 2053,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/event/v/en",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-      "server": "173.245.58.186",
-      "server_port": 8443,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/members/hot/project?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-      "server": "104.17.102.91",
-      "server_port": 2083,
-      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "path": "/videos/outbound",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-      "server": "104.18.33.171",
-      "server_port": 443,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/programs",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-      "server": "104.17.108.62",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/comic/out.html?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-      "server": "173.245.59.136",
-      "server_port": 2053,
-      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "path": "/drama/avatar/view",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-      "server": "173.245.58.151",
-      "server_port": 2053,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/post/playlist/m",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-      "server": "104.17.144.199",
+      "tag": "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+      "server": "104.19.148.161",
       "server_port": 2096,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/p/register?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-      "server": "198.41.209.100",
-      "server_port": 8443,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/bbs/jump/doc",
+        "path": "/bbs",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -701,76 +575,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-      "server": "104.19.147.221",
-      "server_port": 443,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/index/article/buy",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-      "server": "172.66.3.223",
-      "server_port": 8443,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/chat?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-      "server": "198.41.223.79",
+      "tag": "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+      "server": "91.193.58.176",
       "server_port": 2083,
-      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "path": "/archives/archive/classify",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-      "server": "104.17.96.218",
-      "server_port": 2053,
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/magnet/document",
+        "path": "/ad",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -787,13 +598,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-      "server": "104.17.118.166",
+      "tag": "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+      "server": "104.17.190.172",
       "server_port": 8443,
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/forums?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/member/pic/live?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -804,12 +615,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-      "server": "104.18.33.238",
+      "tag": "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+      "server": "104.17.63.255",
       "server_port": 2087,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/torrent/images",
+        "path": "/u",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -827,13 +638,76 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-      "server": "104.17.61.111",
+      "tag": "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+      "server": "172.67.77.20",
+      "server_port": 2087,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
+        "path": "/task/novel",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+      "server": "104.17.100.96",
+      "server_port": 2083,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/clip/star?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+      "server": "104.17.185.128",
+      "server_port": 443,
+      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "path": "/library",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+      "server": "104.16.254.105",
       "server_port": 2096,
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/register/pics",
+        "path": "/channel/items/doujin",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -850,13 +724,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-      "server": "104.16.153.39",
-      "server_port": 2083,
+      "tag": "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+      "server": "198.41.223.7",
+      "server_port": 2096,
       "method": "aes-128-gcm",
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/favs/blogs/buy?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/documents/account?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -867,12 +741,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-      "server": "198.41.209.20",
+      "tag": "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+      "server": "104.17.108.137",
       "server_port": 2053,
       "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
-        "path": "/categories",
+        "path": "/edu",
         "type": "ws",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
@@ -890,76 +764,202 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-      "server": "188.164.248.181",
-      "server_port": 8443,
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "type": "ws",
-        "path": "/ja/programs",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-      "server": "104.17.157.157",
-      "server_port": 2083,
-      "method": "aes-128-gcm",
-      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/collection/groups?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-      "server": "162.159.36.8",
-      "server_port": 443,
-      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
-      "transport": {
-        "path": "/res/f/doc",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]",
-      "server": "108.162.198.227",
+      "tag": "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+      "server": "104.17.109.245",
       "server_port": 2096,
       "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
       "transport": {
         "type": "ws",
-        "path": "/my/help",
+        "path": "/item/res",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+      "server": "198.41.223.51",
+      "server_port": 2087,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/home/account/product?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+      "server": "104.17.110.121",
+      "server_port": 2053,
+      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "path": "/favorite",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+      "server": "104.18.33.74",
+      "server_port": 443,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
+        "path": "/intro/edu",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+      "server": "104.18.33.213",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/videos?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+      "server": "172.66.1.131",
+      "server_port": 8443,
+      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "path": "/group/img",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+      "server": "104.17.170.64",
+      "server_port": 443,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
+        "path": "/seasons",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+      "server": "104.26.3.177",
+      "server_port": 2083,
+      "method": "aes-128-gcm",
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-pixel-panel-10a1.forclaudflare.workers.dev;path=/special/games?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+      "server": "104.17.16.129",
+      "server_port": 443,
+      "uuid": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "path": "/bt/document/redirect",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-panel-10a1.forclaudflare.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]",
+      "server": "91.193.58.38",
+      "server_port": 443,
+      "password": "fe94a76b-4d67-4db6-8045-b290e5353ea2",
+      "transport": {
+        "type": "ws",
+        "path": "/shows/docs",
         "headers": {
           "Host": "nova-pixel-panel-10a1.forclaudflare.workers.dev"
         }
@@ -985,46 +985,46 @@
         "🔮 负载均衡",
         "DIRECT",
         "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-        "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-        "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-        "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-        "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-        "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-        "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-        "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-        "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-        "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-        "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-        "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-        "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-        "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-        "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-        "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-        "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-        "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-        "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-        "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-        "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]"
+        "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+        "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+        "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+        "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+        "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+        "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+        "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+        "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+        "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+        "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+        "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+        "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+        "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+        "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+        "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+        "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+        "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+        "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+        "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+        "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+        "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+        "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+        "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+        "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+        "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+        "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]"
       ]
     },
     {
@@ -1032,46 +1032,46 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-        "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-        "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-        "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-        "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-        "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-        "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-        "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-        "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-        "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-        "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-        "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-        "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-        "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-        "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-        "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-        "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-        "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-        "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-        "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-        "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]"
+        "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+        "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+        "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+        "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+        "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+        "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+        "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+        "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+        "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+        "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+        "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+        "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+        "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+        "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+        "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+        "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+        "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+        "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+        "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+        "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+        "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+        "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+        "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+        "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+        "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+        "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -1082,46 +1082,46 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-        "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-        "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-        "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-        "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-        "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-        "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-        "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-        "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-        "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-        "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-        "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-        "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-        "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-        "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-        "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-        "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-        "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-        "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-        "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-        "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]"
+        "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+        "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+        "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+        "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+        "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+        "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+        "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+        "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+        "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+        "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+        "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+        "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+        "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+        "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+        "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+        "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+        "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+        "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+        "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+        "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+        "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+        "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+        "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+        "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+        "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+        "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]"
       ]
     },
     {
@@ -1129,46 +1129,46 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-        "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-        "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-        "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-        "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-        "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-        "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-        "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-        "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-        "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-        "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-        "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-        "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-        "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-        "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-        "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-        "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-        "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-        "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-        "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-        "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]"
+        "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+        "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+        "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+        "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+        "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+        "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+        "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+        "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+        "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+        "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+        "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+        "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+        "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+        "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+        "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+        "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+        "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+        "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+        "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+        "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+        "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+        "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+        "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+        "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+        "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+        "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]"
       ]
     },
     {
@@ -1204,46 +1204,46 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-        "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-        "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-        "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-        "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-        "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-        "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-        "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-        "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-        "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-        "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-        "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-        "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-        "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-        "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-        "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-        "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-        "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-        "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-        "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-        "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]"
+        "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+        "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+        "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+        "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+        "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+        "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+        "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+        "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+        "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+        "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+        "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+        "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+        "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+        "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+        "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+        "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+        "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+        "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+        "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+        "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+        "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+        "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+        "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+        "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+        "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+        "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]"
       ]
     },
     {
@@ -1259,46 +1259,46 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-        "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-        "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-        "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-        "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-        "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-        "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-        "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-        "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-        "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-        "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-        "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-        "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-        "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-        "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-        "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-        "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-        "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-        "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-        "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-        "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]"
+        "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+        "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+        "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+        "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+        "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+        "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+        "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+        "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+        "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+        "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+        "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+        "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+        "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+        "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+        "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+        "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+        "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+        "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+        "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+        "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+        "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+        "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+        "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+        "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+        "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+        "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]"
       ]
     },
     {
@@ -1309,46 +1309,46 @@
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "سرویس رایگان نوا nova-pixel-panel-10a1.forclaudflare.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.85:443 [TROJAN]",
-        "سرویس رایگان نوا 8.39.125.191:443 [SS]",
-        "سرویس رایگان نوا 104.19.35.178:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.33.110:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.19.145.111:443 [SS]",
-        "سرویس رایگان نوا 104.17.220.123:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.89:2053 [TROJAN]",
-        "سرویس رایگان نوا 108.162.198.244:2083 [SS]",
-        "سرویس رایگان نوا 198.41.208.141:2087 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.248:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.18.33.152:2083 [SS]",
-        "سرویس رایگان نوا 104.26.3.99:2083 [VLESS]",
-        "سرویس رایگان نوا 104.26.5.141:443 [TROJAN]",
-        "سرویس رایگان نوا 91.193.59.105:2096 [SS]",
-        "سرویس رایگان نوا 104.17.157.16:2087 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2087 [TROJAN]",
-        "سرویس رایگان نوا 104.17.53.157:2083 [SS]",
-        "سرویس رایگان نوا 104.19.144.156:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.83:2053 [TROJAN]",
-        "سرویس رایگان نوا 173.245.58.186:8443 [SS]",
-        "سرویس رایگان نوا 104.17.102.91:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.33.171:443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.108.62:443 [SS]",
-        "سرویس رایگان نوا 173.245.59.136:2053 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.151:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.144.199:2096 [SS]",
-        "سرویس رایگان نوا 198.41.209.100:8443 [VLESS]",
-        "سرویس رایگان نوا 104.19.147.221:443 [TROJAN]",
-        "سرویس رایگان نوا 172.66.3.223:8443 [SS]",
-        "سرویس رایگان نوا 198.41.223.79:2083 [VLESS]",
-        "سرویس رایگان نوا 104.17.96.218:2053 [TROJAN]",
-        "سرویس رایگان نوا 104.17.118.166:8443 [SS]",
-        "سرویس رایگان نوا 104.18.33.238:2087 [VLESS]",
-        "سرویس رایگان نوا 104.17.61.111:2096 [TROJAN]",
-        "سرویس رایگان نوا 104.16.153.39:2083 [SS]",
-        "سرویس رایگان نوا 198.41.209.20:2053 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.181:8443 [TROJAN]",
-        "سرویس رایگان نوا 104.17.157.157:2083 [SS]",
-        "سرویس رایگان نوا 162.159.36.8:443 [VLESS]",
-        "سرویس رایگان نوا 108.162.198.227:2096 [TROJAN]"
+        "سرویس رایگان نوا 104.19.34.93:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.209.124:443 [SS]",
+        "سرویس رایگان نوا 162.159.38.188:443 [VLESS]",
+        "سرویس رایگان نوا 172.66.3.150:443 [TROJAN]",
+        "سرویس رایگان نوا 162.159.40.75:8443 [SS]",
+        "سرویس رایگان نوا 108.162.198.94:2096 [VLESS]",
+        "سرویس رایگان نوا 104.19.53.3:8443 [TROJAN]",
+        "سرویس رایگان نوا 8.35.211.170:8443 [SS]",
+        "سرویس رایگان نوا 104.17.148.251:2087 [VLESS]",
+        "سرویس رایگان نوا 8.39.125.200:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.139:443 [SS]",
+        "سرویس رایگان نوا 198.41.223.65:2087 [VLESS]",
+        "سرویس رایگان نوا 104.17.213.215:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.216.0:2053 [SS]",
+        "سرویس رایگان نوا 104.17.116.175:2053 [VLESS]",
+        "سرویس رایگان نوا 173.245.58.248:2083 [TROJAN]",
+        "سرویس رایگان نوا 188.164.248.25:443 [SS]",
+        "سرویس رایگان نوا 104.17.119.243:2096 [VLESS]",
+        "سرویس رایگان نوا 104.17.118.73:2083 [TROJAN]",
+        "سرویس رایگان نوا 8.39.125.248:2083 [SS]",
+        "سرویس رایگان نوا 104.19.148.161:2096 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.176:2083 [TROJAN]",
+        "سرویس رایگان نوا 104.17.190.172:8443 [SS]",
+        "سرویس رایگان نوا 104.17.63.255:2087 [VLESS]",
+        "سرویس رایگان نوا 172.67.77.20:2087 [TROJAN]",
+        "سرویس رایگان نوا 104.17.100.96:2083 [SS]",
+        "سرویس رایگان نوا 104.17.185.128:443 [VLESS]",
+        "سرویس رایگان نوا 104.16.254.105:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.7:2096 [SS]",
+        "سرویس رایگان نوا 104.17.108.137:2053 [VLESS]",
+        "سرویس رایگان نوا 104.17.109.245:2096 [TROJAN]",
+        "سرویس رایگان نوا 198.41.223.51:2087 [SS]",
+        "سرویس رایگان نوا 104.17.110.121:2053 [VLESS]",
+        "سرویس رایگان نوا 104.18.33.74:443 [TROJAN]",
+        "سرویس رایگان نوا 104.18.33.213:443 [SS]",
+        "سرویس رایگان نوا 172.66.1.131:8443 [VLESS]",
+        "سرویس رایگان نوا 104.17.170.64:443 [TROJAN]",
+        "سرویس رایگان نوا 104.26.3.177:2083 [SS]",
+        "سرویس رایگان نوا 104.17.16.129:443 [VLESS]",
+        "سرویس رایگان نوا 91.193.58.38:443 [TROJAN]"
       ]
     },
     {
